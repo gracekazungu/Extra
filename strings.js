@@ -35,4 +35,8 @@ console.log(positions)
 //1. UpperCase: "wonderful"
 //2. LowerCase: "amazing", "UndERneath"
 //3. Title case "A wonderful world"
-let text3="A wonderful world"
+// TitleCase
+let e="A beautiful wedding";
+e=e.split(" ").map(([firstChar,...rest])=>firstChar.toUpperCase()+rest.join("").toLowerCase()).join(" ");
+console.log(e);
+[12:56 PM] Screenshot from 2023-03-08 12-54-54.png
