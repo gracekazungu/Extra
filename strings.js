@@ -36,7 +36,7 @@ console.log(positions)
 //2. LowerCase: "amazing", "UndERneath"
 //3. Title case "A wonderful world"
 // TitleCase
-let e="A beautiful wedding";
-e=e.split(" ").map(([firstChar,...rest])=>firstChar.toUpperCase()+rest.join("").toLowerCase()).join(" ");
-console.log(e);
+let f="A wonderful world";
+f=f.split(" ").map(([firstChar,...rest])=>firstChar.toUpperCase()+rest.join("").toLowerCase()).join(" ");
+console.log(f);
 
